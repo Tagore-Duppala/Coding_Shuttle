@@ -5,8 +5,8 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
-@ConditionalOnProperty(name = "Flavor2", havingValue = "StrawberrySyrup")
+//@Primary
+@ConditionalOnProperty(name = "Flavor2", havingValue = "StrawberrySyrup") //Same comments as ChocolateFrosting file
 public class StrawberrySyrup implements Syrup {
 
     @Override
