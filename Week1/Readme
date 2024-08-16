@@ -12,3 +12,8 @@ SpringBoot application ---> CakeBaker --->
 
 
 
+SpringBoot application is main entry point, It sets up environment and scans through all the annotations and then starts executing dependency injection
+
+pom.xml --> Contains required dependencies, Adds the versions as well, If needed we can change them
+AutoConfiguration (External Library) --> Configures the required configurations to default values, If required we can change them.
+Maven ---> Build automation tool which manages the complete project, Can convert whole project into Jar file required for deployment.
