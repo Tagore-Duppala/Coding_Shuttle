@@ -2,10 +2,8 @@ package com.codingshuttle.week1.Introductiontospring;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-//import week1.Frosting;
-//import week1.Syrup;
 
-@Component
+@Component                        //Used to define as Java Bean, There are other annotations like @Service, @Repository, @Controller to define a class as a Bean, but Spring categorize them into different groups, But inturn everything is a Bean.
 public class CakeBaker {
 
     @Autowired
