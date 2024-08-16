@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication							// This is the starting point of a springboot application, Only one annotation of this type should be present for an application.
 public class IntroductiontospringApplication implements CommandLineRunner { 
-									// When we implement CommandLineRunner SpringBoot automatically calls run() method
+									// When we implement CommandLineRunner SpringBoot automatically calls overriden run() method
 									// Order of Execution in Main method -> run method in main (Starts SpringBoot application) -> run method()
 
 	@Autowired
