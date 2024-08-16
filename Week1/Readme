@@ -1,1 +1,14 @@
+This shows the creation of Beans and Dependancy injection
+
+The order of Hierarchy is as follows:
+
+                                                                    ChocolateFrosting
+                                           Frosting interface ---> 
+                                                                    StrawberryFrosting
+SpringBoot application ---> CakeBaker --->                   
+                                                                    ChocolateSyrup
+                                            Syrup interface  --->   
+                                                                    StrawberrySyrup
+
+
 
