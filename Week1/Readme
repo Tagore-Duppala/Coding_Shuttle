@@ -17,3 +17,7 @@ SpringBoot application is main entry point, It sets up environment and scans thr
 pom.xml --> Contains required dependencies, Adds the versions as well, If needed we can change them
 AutoConfiguration (External Library) --> Configures the required configurations to default values, If required we can change them.
 Maven ---> Build automation tool which manages the complete project, Can convert whole project into Jar file required for deployment.
+
+@Primary ---> Used to Prioritize one bean over other
+@Qualifier ---> used to specify the bean which we wanted to use, @Qualifier("ClassName") should be placed where we use @Autowired
+Preference will be Qualifier >> Primary
